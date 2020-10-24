@@ -336,6 +336,7 @@ def main():
             "xonsh = xonsh.main:main",
             "xonsh-cat = xonsh.xoreutils.cat:cat_main",
             "xonsh-uname = xonsh.xoreutils.uname:uname_main",
+            "xonsh-uptime = xonsh.xoreutils.uptime:uptime_main",
         ],
     }
     skw["cmdclass"]["develop"] = xdevelop
